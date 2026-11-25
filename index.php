@@ -8,4 +8,9 @@ use Twig\Loader\FilesystemLoader;
 $fsl = new FilesystemLoader('views');
 $twig = new Environment($fsl, ['debug' => true]);
 $twig->addExtension(new DebugExtension());
+
+echo $twig->render('home.twig', [
+    'username' => 'Enzo',
+    'title' => 'Index',
+]);
 ?>
