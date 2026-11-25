@@ -21,6 +21,10 @@ class ComposerStaticInit51be4cb460270dd655066b459dc7c505
         array (
             'helpers\\' => 8,
         ),
+        'c' =>
+        array (
+            'controllers\\' => 12,
+        ),
         'T' =>
         array (
             'Twig\\' => 5,
@@ -36,6 +40,10 @@ class ComposerStaticInit51be4cb460270dd655066b459dc7c505
         'helpers\\' =>
         array (
             0 => __DIR__ . '/../..' . '/helpers',
+        ),
+        'controllers\\' =>
+        array (
+            0 => __DIR__ . '/../..' . '/controllers',
         ),
         'Twig\\' =>
         array (

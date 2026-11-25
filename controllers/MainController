@@ -1,0 +1,19 @@
+<?php
+
+    namespace controllers;
+
+    use Environment;
+
+    class MainController
+    {
+        private Environment $templates;
+
+        public function __construct(Environment $templates)
+        {
+            $this->templates = $templates;
+        }
+    }
+    public function index() : void {
+        echo $this->templates->render('home.twig', ['username' => 'your_name']);
+    }
+?>
