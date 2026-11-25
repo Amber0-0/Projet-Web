@@ -12,8 +12,8 @@
         {
             $this->templates = $templates;
         }
-    }
-    public function index() : void {
-        echo $this->templates->render('home.twig', ['username' => 'your_name']);
+        public function index() : void {
+            echo $this->templates->render('home.twig', ['username' => 'your_name']);
+        }
     }
 ?>
